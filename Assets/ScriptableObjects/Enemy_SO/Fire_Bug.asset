@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2e12ab4afafb064c94e6500002a8de8, type: 3}
+  m_Name: Fire_Bug
+  m_EditorClassIdentifier: 
+  monster_name: Fire bug
+  description: High speed but low health
+  image: {fileID: 1311231209, guid: d4ef96a2257686b41bcd61af553218d0, type: 3}
+  maxHealth: 100
+  currentHealth: 0
+  armor: 0
+  speed: 3
+  num_lives: 3
+  reward: 5
+  enemyPrefab: {fileID: 7932244758267447619, guid: 43940b5ce0cb27f49a8da659439e5c5a, type: 3}
